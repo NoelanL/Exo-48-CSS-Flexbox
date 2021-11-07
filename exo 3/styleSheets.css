@@ -1,0 +1,23 @@
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#container1{
+    background-color: darkseagreen;
+    height: 500px;
+    width: 500px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container2{
+    background-color: violet;
+    height: 500px;
+    width: 500px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}

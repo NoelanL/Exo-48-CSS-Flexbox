@@ -1,0 +1,47 @@
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-flex > div{
+    flex-basis: 20%;
+}
+
+#container1{
+    background-color: darkseagreen;
+}
+
+#container3:hover{
+    height: 50px;
+    bottom: 25px;
+}
+
+#container2{
+    background-color: violet;
+}
+
+#container3{
+    background-color: darkviolet;
+}
+
+#container4{
+    background-color: orange;
+}
+
+#container5{
+    background-color: red;
+}
+
+@media screen and (max-width: 600px){
+    .container-flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#container1, #container6{
+    height: 250px;
+    width: 200px;
+    background-color: darkseagreen;
+}
+
+#container2, #container7{
+    height: 250px;
+    width: 200px;
+    background-color: violet;
+}
+
+#container3, #container8{
+    height: 250px;
+    width: 200px;
+    background-color: darkviolet;
+}
+
+#container4{
+    height: 250px;
+    width: 200px;
+    background-color: orange;
+}
+
+#container5{
+    height: 250px;
+    width: 200px;
+    background-color: red;
+}
+
+@media screen and (max-width: 350px){
+
+}
